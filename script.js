@@ -10,12 +10,12 @@ const profile = {
 }
 
 const content = `
-      <h1 class="backpack__name">${profile.fName} ${profile.lName}</h1>
-      <ul class="backpack__features">
-        <li class="packprop backpack__color">Email address:<span> ${profile.email}</span></li>
-        <li class="packprop backpack__pockets">PIDM:<span> ${profile.pidm}</span></li>
-        <li class="packprop backpack__strap">School currently attending: <span> ${profile.school}</span></li>
-        <li class="packprop backpack__strap">Current year in school:<span> ${profile.gradeLevel}</span></li>
+      <h1>${profile.fName} ${profile.lName}</h1>
+      <ul>
+        <li>Email address:<span> ${profile.email}</span></li>
+        <li>PIDM:<span> ${profile.pidm}</span></li>
+        <li>School currently attending: <span> ${profile.school}</span></li>
+        <li>Current year in school:<span> ${profile.gradeLevel}</span></li>
       </ul>  
   `;
 
